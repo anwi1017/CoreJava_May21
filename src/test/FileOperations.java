@@ -21,10 +21,12 @@ public class FileOperations {
             System.out.println("Message written to file successfuly!");  
         } catch (FileNotFoundException e) {
             // TODO Auto-generated catch block
-            e.printStackTrace();
+            //e.printStackTrace();
+            System.out.println("File not found");
         } catch (IOException e) {
             // TODO Auto-generated catch block
-            e.printStackTrace();
+            //e.printStackTrace();
+            System.out.println("IO exception");
         }
 	}
 
