@@ -36,6 +36,10 @@ public class RunnerClass {
 		
 		Obj4.display();
 		
+		AbstractChild Obj5 = new AbstractChild();
+		
+		Obj5.method2();
+		
 	}
 
 }
