@@ -29,8 +29,12 @@ public class RunnerClass {
 		
 		MethodOverloading Obj3 = new MethodOverloading();
 		
-		Obj3.add(5, 7);
-		Obj3.add(5.5, 7.7);
+		Obj3.add(15, 7);
+		Obj3.add(25.5, 7.7);
+		
+		MethodOverrideChild Obj4 = new MethodOverrideChild();
+		
+		Obj4.display();
 		
 	}
 
