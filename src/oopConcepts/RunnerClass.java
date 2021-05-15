@@ -35,10 +35,25 @@ public class RunnerClass {
 		MethodOverrideChild Obj4 = new MethodOverrideChild();
 		
 		Obj4.display();
-		
+				
 		AbstractChild Obj5 = new AbstractChild();
 		
 		Obj5.method2();
+		Obj5.method1();
+		
+		EncapsulationExample Obj7 = new EncapsulationExample();
+		
+		Obj7.setSalary(10000);
+		
+		System.out.println(Obj7.getSalary());
+		
+		Obj7.setName("Ann");
+		
+		System.out.println(Obj7.getName());
+		
+		Obj7.setEmpId("ACW1967");
+		
+		System.out.println(Obj7.getEmpId());
 		
 	}
 
